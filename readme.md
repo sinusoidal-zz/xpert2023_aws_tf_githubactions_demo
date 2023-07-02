@@ -67,17 +67,12 @@ When completed, the created S3 bucket name will be displayed.<br>
 It should look like ex. **s3_bucket_id = "xpertsummit-remote-state-development-student10"**
 
 ### Step 4
-In the next step, we are going to create a place where we can store out `terraform state file`
-- Go to the `.tf\00_remote_state` directory
-- Run `terraform init` (you need the provide the AWS_ACCESS_KEY and AWS_SECRET_KEY)
-- Run `terraform apply` (you need the provide the AWS_ACCESS_KEY and AWS_SECRET_KEY and confirm)
-When completed, the created S# bucket name will be displayed.
-It should look like **.......**
-
 Fortigates also require a AWS role the interact with the AWS API.
-- Go to the `.tf\01_aws_security` directory
+- Go to the `.\tf\01_aws_security` directory
 - Run `terraform init` (you need the provide the AWS_ACCESS_KEY and AWS_SECRET_KEY)
-- Run `terraform apply` (you need the provide the AWS_ACCESS_KEY and AWS_SECRET_KEY and confirm)
+- Run `terraform apply` (you need the provide the AWS_ACCESS_KEY and AWS_SECRET_KEY and confirm)<br>
+<br>
+The results of Step 2 & 3 are stored in a local terraform statefile on the Cloud9 instances.
 
 ### Step 5
 In order that our Github action has the necessary credentials, we need to make sure we provide them in a secure way, through Github Action secrets.
