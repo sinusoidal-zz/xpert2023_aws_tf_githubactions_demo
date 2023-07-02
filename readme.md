@@ -124,6 +124,7 @@ FGTPassiveMGMTPublicIP = "13.39.194.191"
 Password = "i-071e...e5ba824a7"
 Username = "admin"
 ```
+
 ## Cleanup
 - Under Github Actions, run the **Destroy TF manually** action manually (wait until finished)
 - In your Cloud9 instance, in `./tf/01_aws_security`, run `terraform destroy`
