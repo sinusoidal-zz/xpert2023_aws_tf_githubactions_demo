@@ -51,7 +51,7 @@ In `00_remote_state`,  update the file `variables.tf` with your **studentid** an
 ### Step 3
 Now, clone your update repo into the Cloud9 instance.
 ```
-git clone https://github.com/<your_github_account>/aws_tf_githubactions_demo-.git
+git clone https://github.com/<your_github_account>/aws_tf_githubactions_demo.git
 ```
 ### Step 4
 In the next step, we are going to create a place where we can store out `terraform state file`
