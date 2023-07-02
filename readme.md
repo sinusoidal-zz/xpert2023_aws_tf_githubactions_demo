@@ -41,18 +41,18 @@ In order to work on a project (where you're not a team member or collaborator), 
 **Fork** the repo [https://github.com/40net-cloud/xpert2023_aws_tf_githubactions_demo](https://github.com/40net-cloud/xpert2023_aws_tf_githubactions_demo). This will create a copy of the repo in your own Github account.
 
 ### Step 2
+Now, clone your update repo into the Cloud9 instance.
+```
+git clone https://github.com/<your_github_account>/xpert2023_aws_tf_githubactions_demo.git
+```
+### Step 3
 When you explore the repo, you will find a `tf` folder containing 3 subfolders.
 - 00_remote_state 
 - 01_aws_security
 - 02_infra
 
-In `00_remote_state`,  update the file `variables.tf` with your **studentid** and click **commit**
+In `00_remote_state`,  update the file `variables.tf` with your **studentid**
 
-### Step 3
-Now, clone your update repo into the Cloud9 instance.
-```
-git clone https://github.com/<your_github_account>/xpert2023_aws_tf_githubactions_demo.git
-```
 ### Step 4
 In the next step, we are going to create a place where we can store out `terraform state file`
 - Go to the `.tf\00_remote_state` directory
