@@ -105,8 +105,8 @@ In our cloud9, there is an code editor, that can easily help you to edit `.\tf\0
 - `git push` to push the changes to Github. Authenticate to your github repo with your personal token.<br>
 <br>
 Note: You might be asked to configure your email address and/or username to trackyour changes. <br>
-`git config --global user.name "FIRST_NAME LAST_NAME"`
-`git config --global user.email "MY_NAME@example.com"`
+`git config --global user.name \"FIRST_NAME LAST_NAME\"`
+`git config --global user.email \"MY_NAME@example.com\"`
 
 Now the Github Action will kick in and deploy the infrastructure.<br>
 You can follow the progress in the Github UI under Actions.<br>
