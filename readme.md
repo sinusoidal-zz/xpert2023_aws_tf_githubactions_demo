@@ -117,7 +117,7 @@ Password = "i-071e...e5ba824a7"
 Username = "admin"
 ```
 ## Cleanup
-- Under Github Actions, run the **Destroy TF manually** action manually
+- Under Github Actions, run the **Destroy TF manually** action manually (wait until finished)
 - In your Cloud9 instance, in `./tf/01_aws_security`, run `terraform destroy`
 - In your Cloud9 instance, in `./tf/00_remote_state`, run `terraform destroy`
 - Remove the Cloud9 instance
