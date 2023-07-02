@@ -106,7 +106,12 @@ In our cloud9, there is an code editor, that can easily help you to edit `.\tf\0
 <br>
 Note: You might be asked to configure your email address and/or username to trackyour changes. <br>
 ```
-git add
+FGTActiveMGMTPublicIP = "13.37.98.3"
+FGTClusterPublicFQDN = "https://ec2-13-36-58-214.eu-west-3.compute.amazonaws.com:8443"
+FGTClusterPublicIP = "13.36.58.214"
+FGTPassiveMGMTPublicIP = "13.39.194.191"
+Password = "i-071e...e5ba824a7"
+Username = "admin"
 ```
 <br>
 Now the Github Action will kick in and deploy the infrastructure.<br>
