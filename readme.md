@@ -105,6 +105,7 @@ In our cloud9, there is an code editor, that can easily help you to edit `.\tf\0
 - `git push` to push the changes to Github. Authenticate to your github repo with your personal token.<br>
 <br>
 Note: You might be asked to configure your email address and/or username to track your changes. <br>
+
 ```
 git config --gloval user.email ...
 ```
