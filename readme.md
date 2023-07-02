@@ -63,7 +63,7 @@ variable "studentid" {
 Next: <br>
 - Run `terraform init` (you need the provide the AWS_ACCESS_KEY and AWS_SECRET_KEY)
 - Run `terraform apply` (you need the provide the AWS_ACCESS_KEY and AWS_SECRET_KEY and confirm)
-When completed, the created S# bucket name will be displayed.<br>
+<br>When completed, the created S# bucket name will be displayed.<br>
 It should look like ex. **s3_bucket_id = "xpertsummit-remote-state-development-student10"**
 
 ### Step 4
