@@ -93,8 +93,8 @@ At this point, a lof of automation will kick in. Inside the Cloud9 instance (con
 - Push our changes to Github. At that point, the Github Action will kick in, and deploy our code.
 
 As mentioned in **step 2**, we are using a shared storage for keep track of our terraform deployment, so we need to update our in `.\tf\02_infra` to reflect this.
-In our cloud9, there is an code editor, that can easily help you to edit .\tf\02_infra\provider.tf`.
-- Edit the `bucket = "xpertsummit-remote-state-development"` line to reflect your S3 bucket name
+In our cloud9, there is an code editor, that can easily help you to edit `.\tf\02_infra\provider.tf`.
+- Edit the `bucket = "xpertsummit-remote-state-development-student<xx>"` line to reflect your S3 bucket name
 - `git status` will show you what is changed and need staging
 - `git add provider.tf` will stage the changes
 - `git commit -m "My update of provider.tf`
