@@ -59,6 +59,11 @@ variable "studentid" {
   description = "Your student ID"
 }
 ```
+Next: <br>
+- Run `terraform init` (you need the provide the AWS_ACCESS_KEY and AWS_SECRET_KEY)
+- Run `terraform apply` (you need the provide the AWS_ACCESS_KEY and AWS_SECRET_KEY and confirm)
+When completed, the created S# bucket name will be displayed.
+It should look like **.......**
 
 ### Step 4
 In the next step, we are going to create a place where we can store out `terraform state file`
