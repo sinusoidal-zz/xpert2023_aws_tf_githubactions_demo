@@ -51,8 +51,8 @@ When you explore the repo, you will find a `tf` folder containing 3 subfolders.
 - 01_aws_security
 - 02_infra
 
-In `.\tf\00_remote_state`,  update the file `variables.tf` with your **student\<xx\>**.
-ex. 
+In `.\tf\00_remote_state`,  update the file `variables.tf` with your **student\<xx\>**.<br>
+Example:
 ```
 variable "studentid" {
   default = "student10"
