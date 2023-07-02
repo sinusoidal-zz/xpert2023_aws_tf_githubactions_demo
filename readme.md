@@ -51,7 +51,14 @@ When you explore the repo, you will find a `tf` folder containing 3 subfolders.
 - 01_aws_security
 - 02_infra
 
-In `.\tf\00_remote_state`,  update the file `variables.tf` with your **student\<xx\>**, 
+In `.\tf\00_remote_state`,  update the file `variables.tf` with your **student\<xx\>**.
+ex. 
+```
+variable "studentid" {
+  default = "student10"
+  description = "Your student ID"
+}
+```
 
 ### Step 4
 In the next step, we are going to create a place where we can store out `terraform state file`
