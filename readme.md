@@ -41,7 +41,7 @@ In order to work on a project (where you're not a team member or collaborator), 
 **Fork** the repo [https://github.com/40net-cloud/xpert2023_aws_tf_githubactions_demo](https://github.com/40net-cloud/xpert2023_aws_tf_githubactions_demo).<br>
 This will create a copy of the repo in your own Github account. <br>
 <br>
-In the repo, click on **Actions** and enable **Github workflows**
+In the repo, click on **Actions** and enable **I understand my workflows, go ahead and enable them**
 
 ### Step 2
 Now, clone your update repo into the Cloud9 instance.
