@@ -45,7 +45,7 @@ This will create a copy of the repo in your own Github account. <br>
 In the repo, click on **Actions** and enable **I understand my workflows, go ahead and enable them**
 
 ### Step 2
-Now, clone your update repo into the Cloud9 instance.
+Now, clone your update repo into the Cloud9 IDE instance.
 ```
 git clone https://github.com/<your_github_account>/xpert2023_aws_tf_githubactions_demo.git
 ```
