@@ -114,7 +114,8 @@ Now the Github Action will kick in and deploy the infrastructure.<br>
 You can follow the progress in the Github UI under Actions.<br>
 Once the process is completed, you can find how to login to your fortigates in the **Terraform Deploy** job under **Terraform Apply** <br>
 It can take a few minutes before everything is completed and booted.
-It should look like:<br>
+It should look like:
+
 ```
 FGTActiveMGMTPublicIP = "13.37.98.3"
 FGTClusterPublicFQDN = "https://ec2-13-36-58-214.eu-west-3.compute.amazonaws.com:8443"
