@@ -72,7 +72,7 @@ Fortigates also require a AWS role the interact with the AWS API.
 - Run `terraform init` (you need the provide the AWS_ACCESS_KEY and AWS_SECRET_KEY)
 - Run `terraform apply` (you need the provide the AWS_ACCESS_KEY and AWS_SECRET_KEY and confirm)<br>
 <br>
-The results of Step 2 & 3 are stored in a local terraform statefile on the Cloud9 instances.
+The results of Step 3 & 4 are stored in a local terraform statefile on the Cloud9 instances.
 
 ### Step 5
 In order that our Github action has the necessary credentials, we need to make sure we provide them in a secure way, through Github Action secrets.
