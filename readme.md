@@ -112,7 +112,7 @@ git config --global user.name <name>
 <br>
 Now the Github Action will kick in and deploy the infrastructure.<br>
 You can follow the progress in the Github UI under Actions.<br>
-Once the process is completed, you can find how to login to your fortigates in the **Terraform**Deploy** job under Terraform Apply.<br>
+Once the process is completed, you can find how to login to your fortigates in the **TerraformDeploy** job under Terraform Apply.<br>
 It can take a few minutes before everything is completed and booted.
 It should look like:
 
