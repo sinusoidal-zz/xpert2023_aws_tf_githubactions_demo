@@ -101,7 +101,7 @@ In our cloud9, there is an code editor, that can easily help you to edit `.\tf\0
 - `git status` will show you what is changed and need staging
 - `git add provider.tf` will stage the changes
 - `git commit -m "My update of provider.tf`
-- `git push` to push the changes to Github
+- `git push` to push the changes to Github. Authenticate to your github repo with your personal token.
 
 Now the Github Action will kick in and deploy the infrastructure. You can follow the progress in the Github UI under actions.
 
