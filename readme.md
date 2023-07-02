@@ -103,6 +103,18 @@ In our cloud9, there is an code editor, that can easily help you to edit `.\tf\0
 - `git commit -m "My update of provider.tf`
 - `git push` to push the changes to Github. Authenticate to your github repo with your personal token.
 
-Now the Github Action will kick in and deploy the infrastructure. You can follow the progress in the Github UI under actions.
+Now the Github Action will kick in and deploy the infrastructure.<br>
+You can follow the progress in the Github UI under Actions.<br>
+Once the process is completed, you can find how to login to your fortigates in the **Terraform Deploy** job under **Terraform Apply** <br>
+It can take a few minutes before everything is completed and booted.
+It should look lie:
+```
+FGTActiveMGMTPublicIP = "13.37.98.3"
+FGTClusterPublicFQDN = "https://ec2-13-36-58-214.eu-west-3.compute.amazonaws.com:8443"
+FGTClusterPublicIP = "13.36.58.214"
+FGTPassiveMGMTPublicIP = "13.39.194.191"
+Password = "i-071e...e5ba824a7"
+Username = "admin"
+```
 
 
