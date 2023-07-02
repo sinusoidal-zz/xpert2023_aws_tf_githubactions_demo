@@ -104,7 +104,8 @@ In our cloud9, there is an code editor, that can easily help you to edit `.\tf\0
 - `git commit -m "My update of provider.tf`
 - `git push` to push the changes to Github. Authenticate to your github repo with your personal token.<br>
 <br>
-Note: You might be asked to configure your email address and/or username to track your changes. <br>
+Note: You might be asked to configure your email address and/or username to track your changes.
+
 ```
 git config --global user.name <name>
 ```
