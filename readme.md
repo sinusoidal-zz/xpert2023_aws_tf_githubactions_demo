@@ -104,15 +104,7 @@ In our cloud9, there is an code editor, that can easily help you to edit `.\tf\0
 - `git commit -m "My update of provider.tf`
 - `git push` to push the changes to Github. Authenticate to your github repo with your personal token.<br>
 <br>
-Note: You might be asked to configure your email address and/or username to trackyour changes. <br>
-```
-FGTActiveMGMTPublicIP = "13.37.98.3"
-FGTClusterPublicFQDN = "https://ec2-13-36-58-214.eu-west-3.compute.amazonaws.com:8443"
-FGTClusterPublicIP = "13.36.58.214"
-FGTPassiveMGMTPublicIP = "13.39.194.191"
-Password = "i-071e...e5ba824a7"
-Username = "admin"
-```
+Note: You might be asked to configure your email address and/or username to track your changes. <br>
 <br>
 Now the Github Action will kick in and deploy the infrastructure.<br>
 You can follow the progress in the Github UI under Actions.<br>
