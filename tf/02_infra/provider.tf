@@ -14,7 +14,7 @@ terraform {
 
   backend "s3" {
     region = "eu-west-3"
-    bucket = "xpertsummit-remote-state-development-student35"
+    bucket = "xpertsummit-remote-state-development-student<xx>"
     key    = "terraform.tfstate"
   }
 }
