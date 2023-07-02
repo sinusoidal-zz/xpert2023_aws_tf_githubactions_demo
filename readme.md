@@ -38,7 +38,7 @@ With very minor adjustment, any of the terraform examples in [https://github.com
 
 ### Step 1
 In order to work on a project (where you're not a team member or collaborator), <br>
-**Fork** the repo [https://github.com/xxradar/aws_tf_githubactions_demo-](https://github.com/xxradar/aws_tf_githubactions_demo-). This will create a copy of the repo in your own Github account.
+**Fork** the repo [https://github.com/40net-cloud/xpert2023_aws_tf_githubactions_demo](https://github.com/40net-cloud/xpert2023_aws_tf_githubactions_demo). This will create a copy of the repo in your own Github account.
 
 ### Step 2
 When you explore the repo, you will find a `tf` folder containing 3 subfolders.
