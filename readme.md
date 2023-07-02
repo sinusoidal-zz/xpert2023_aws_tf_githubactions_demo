@@ -52,6 +52,7 @@ When you explore the repo, you will find a `tf` folder containing 3 subfolders.
 - 02_infra
 
 In `.\tf\00_remote_state`,  update the file `variables.tf` with your **student\<xx\>**.<br>
+<br>
 Example:
 ```
 variable "studentid" {
