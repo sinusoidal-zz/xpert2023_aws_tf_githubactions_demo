@@ -1,5 +1,6 @@
 # Deploying AWS resources using TF and GitHub actions
 Interested in getting this demo in your own environment? Follow these steps !
+<img src="lab.png" />
 
 ## Prerequisites
 ### 1. Github
