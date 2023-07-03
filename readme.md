@@ -80,7 +80,7 @@ The results of Step 3 & 4 are stored in a local terraform statefile on the Cloud
 
 ### Step 5
 In order that our Github action has the necessary credentials, we need to make sure we provide them in a secure way, through Github Action secrets.<br>
-Goto [](https:\\github.com\<your_gh_account\xpert2023_aws_tf_githubactions_demo), click **Settings**, select **Actions** in the **Secrets and variables** section.
+Goto [https:\\github.com\<your_gh_account\xpert2023_aws_tf_githubactions_demo](https:\\github.com\<your_gh_account\xpert2023_aws_tf_githubactions_demo), click **Settings**, select **Actions** in the **Secrets and variables** section.
 Now create
 - AWS_ACCESS_KEY
 - AWS_SECRET_KEY
