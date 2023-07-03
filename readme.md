@@ -79,8 +79,8 @@ Fortigates also require a AWS role the interact with the AWS API.
 The results of Step 3 & 4 are stored in a local terraform statefile on the Cloud9 instances.
 
 ### Step 5
-In order that our Github action has the necessary credentials, we need to make sure we provide them in a secure way, through Github Action secrets.
-Goto `https://github.com/<your_gh_account>/aws_tf_githubactions_demo-`, click **Settings**, select **Actions** in the **Secrets and variables** section.
+In order that our Github action has the necessary credentials, we need to make sure we provide them in a secure way, through Github Action secrets.<br>
+Goto `xpert2023_aws_tf_githubactions_demo', click **Settings**, select **Actions** in the **Secrets and variables** section.
 Now create
 - AWS_ACCESS_KEY
 - AWS_SECRET_KEY
